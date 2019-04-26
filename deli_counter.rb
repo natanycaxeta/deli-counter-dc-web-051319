@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
   end
   
 def now_serving(name)
- name.each do |name|
-  puts"Currently serving #{name}."
+name.each do |name|
+  puts"Currently serving #{(name)-1}."
 end  
 end  
