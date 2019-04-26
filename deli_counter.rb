@@ -18,7 +18,6 @@ def take_a_number(katz_deli, name)
   
 def now_serving(name)
 name.each do |name|
-position = katz_deli.index(name)
   puts"Currently serving #{name}."
 end  
 end  
