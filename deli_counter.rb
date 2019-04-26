@@ -17,7 +17,7 @@ def take_a_number(katz_deli, name)
   end
   
 def now_serving(name)
-katz_deli.push(name)
+name.push
   position = katz_deli.index(name)
   puts"Currently serving #{name}."
 end  
