@@ -16,13 +16,13 @@ def take_a_number(katz_deli, name)
   puts"Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   end
   
-def now_serving(array)
+def now_serving(other_deli)
   queue = Queue.new
-  queue = array
+  queue = other_deli
     
-    if array.length > 0
-    puts "Currently serving #{array[0]}."
-    array.shift
+    if other_deli.length > 0
+    puts "Currently serving #{other_deli[0]}."
+    other_deli.shift
     else
     puts "There is nobody waiting to be served!"
     end
