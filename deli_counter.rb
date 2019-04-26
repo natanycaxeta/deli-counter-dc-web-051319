@@ -21,4 +21,4 @@ name.each do |name|
 position = katz_deli.index(name)
   puts"Currently serving #{name}."
 end  
-  
+end  
