@@ -20,7 +20,7 @@ def take_a_number(katz_deli, name)
   while other_deli = other_deli.shift
   other_deli.push(name)
   position = other_deli.index(name)
-    puts "Currently serving #{other_deli.index(name)-1}."
+    puts "Currently serving #{name}."
   end
 
   puts "There is nobody waiting to be served!"
