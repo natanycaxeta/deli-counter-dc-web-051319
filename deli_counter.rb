@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
   puts"Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   end
   
-  def now_serving(array)
+  def now_serving(other_deli)
   while name = array.shift
     puts "Currently serving #{name}."
   end
