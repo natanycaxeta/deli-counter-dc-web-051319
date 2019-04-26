@@ -16,8 +16,8 @@ def take_a_number(katz_deli, name)
   puts"Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   end
   
-def now_serving(name)
-name.each do |name|
-  puts"Currently serving #{name.index}."
+def now_serving(other_deli)
+other_deli.each do |name|
+  puts"Currently serving #{other_deli}."
 end  
 end  
