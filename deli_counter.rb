@@ -18,6 +18,7 @@ def take_a_number(katz_deli, name)
   
   def now_serving(other_deli)
   while other_deli = other_deli.shift
+  other_deli.push
     puts "Currently serving #{other_deli}."
   end
 
